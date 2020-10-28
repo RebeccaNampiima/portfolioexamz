@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>portfolio</title>
+		<script
+			src="https://kit.fontawesome.com/adf38c6466.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<input type="checkbox" name="" id="check" />
+				<div class="logo-container">
+					<h3 class="logo">BLACK<span>CODE</span></h3>
+					<!--*span hjälper till att separera samma ord så att du kan utforma det annorlunda-->
+				</div>
+				<div class="nav-btn">
+					<div class="nav-links">
+						<ul>
+							<li class="nav-link">
+								<a href="#mydetails">ABOUT ME</a
+								><!--början på nav-länkar-->
+							</li>
+							<li class="nav-link">
+								<a href="#">SERVICES<i class="fas fa-caret-down"></i></a>
+								<div class="dropdown">
+									<!--början på sub nav-länkar-->
+									<ul>
+										<li class="dropdown-link">
+											<a href="#">Webdesign</a>
+										</li>
+										<li class="dropdown-link">
+											<a href="#">Brand-design</a>
+										</li>
+										<!--slut på sub nav-länkar-->
+										<li class="dropdown-link">
+											<a href="#"
+												>App design<i class="fas fa-caret-down"> </i
+											></a>
+											<div class="dropdown second">
+												<ul>
+													<li class="dropdown-link">
+														<a href="#">Apple</a>
+													</li>
+													<li class="dropdown-link">
+														<a href="#">Games</a>
+													</li>
+													<li class="dropdown-link">
+														<a href="#">Bookings</a>
+													</li>
+
+													<div class="arrow"></div>
+												</ul>
+											</div>
+										</li>
+										<li class="dropdown-link">
+											<a href="#">Tutorials</a>
+										</li>
+										<div class="arrow"></div>
+									</ul>
+								</div>
+							</li>
+							<li class="nav-link">
+								<a href="projects.html">PROJECTS</a>
+							</li>
+							<li class="nav-link">
+								<a href="contactme.html">CONTACT ME</a>
+							</li>
+						</ul>
+					</div>
+					<!--slut på nav-länkar-->
+					<div class="log-sign"></div>
+				</div>
+				<div class="hamburger-menu-container">
+					<div class="hamburger-menu">
+						<div></div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="myname">
+			<img src="images/header.webp" alt="" height="150px" width="100%" />
+			<div class="name_and_yrke">
+				<h1 class="hello">
+					HELLO<br />
+					I'M REBECCA
+				</h1>
+				<p class="paragraph1">A front-end developer</p>
+			</div>
+		</div>
+		<div class="wholebody">
+			<div class="aboutme">
+				<div>
+					<img
+						src="images/myphoto.jpg"
+						class="myphoto"
+						alt="myphoto"
+						width="40%"
+					/>
+				</div>
+				<div class="mydetails" id="mydetails">
+					<div class="aboutmeheading">ABOUT ME</div>
+					<div class="firstparagraph">
+						<p class="aboutmeparagraph">
+							Iam an aspiring front-end developer. I am currently stydying at EC
+							Utbildning. I can offer services like designing simple websites.
+							youu can learn more about me by downloading mt CV.
+						</p>
+					</div>
+					<button class="button">Download CV</button>
+				</div>
+			</div>
+			<h1 class="myserviceheading">MY SERVICES</h1>
+			<div class="myservices">
+				<div class="services">
+					<img
+						src="images/channel.jpg"
+						class="services__icon1"
+						alt="channellogo"
+						width="50%"
+					/>
+					<h1 class="services_branddesign">Brand design</h1>
+					<p class="services__paragraph1">
+						i design all sorts of brand designs and one of my top clients is
+						coco channel
+					</p>
+					<button class="services_button">Read More</button>
+				</div>
+				<div class="webdesign">
+					<img
+						src="images/laptop.png"
+						class="webdesign__icon2"
+						alt="webdesign"
+						width="50%"
+					/>
+					<h1 class="webdesign__design">web design</h1>
+					<p class="webdesign__paragraph2">
+						i design all sorts of brand designs and one of my top clients is
+						coco channel
+					</p>
+					<button class="services_button">Read More</button>
+				</div>
+				<div class="appdesign">
+					<img
+						src="images/mobile.png"
+						class="appdesign__icon3"
+						alt="channellogo"
+						width="40%"
+					/>
+					<h1 class="appdesign__header">App design</h1>
+					<p class="appdesign__paragraph3">
+						i design all sorts of brand designs and one of my top clients is
+						coco channel
+					</p>
+					<button class="services_button">Read More</button>
+				</div>
+			</div>
+			<div class="footer">
+				<ul class="social-media">
+					<li>
+						<a href="#"><i class="fab fa-facebook-square"></i></a>
+						<!--Jag fick ikonerna från fontawesome-->
+					</li>
+					<li>
+						<a href="#"><i class="fab fa-twitter-square"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="fab fa-instagram-square"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

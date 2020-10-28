@@ -1,0 +1,73 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background-color: rgb(218, 222, 231);
+}
+
+h1 {
+	margin: 4rem;
+	color: rgb(62, 62, 110);
+	font-family: "Grenze Gotisch", cursive;
+}
+
+h2 {
+	text-align: center;
+	font-size: 60px;
+	color: rgb(62, 62, 110);
+	font-family: "Grenze Gotisch", cursive;
+}
+
+p {
+	margin: 5px;
+}
+
+main {
+	display: grid;
+	grid-template-columns: repeat(
+		auto-fit,
+		minmax(19rem, 1fr)
+	); /* "auto fit" sträcker bilderna till hela skärmen*/
+	grid-gap: 10px;
+}
+
+.cards__image {
+	width: 100%;
+}
+
+.card {
+	transition: transform 1s; /* Transition och transform: translate() fungerar tillsammans, 
+	                                      det visar hur snabbt eller långsamt ett element rör sig när det svävar*/
+	border: 1px solid green;
+}
+
+.card:hover {
+	transform: translateY(-10px);
+}
+
+.card__info {
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #eeeeee;
+	font-size: 0.8rem;
+	border-bottom: 2px solid #cccccc;
+}
+
+.card__info i {
+	font-size: 1.2rem;
+	color: blue;
+}
+
+.card__info a {
+	text-decoration: none;
+	font-size: 1.1rem;
+}
+
+.card__info a:hover {
+	color: blue;
+}
